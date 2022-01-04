@@ -1,22 +1,107 @@
-body {
-    padding-left: 100px;
-    padding-right: 100px;
-    }
+*, *::before, *::after {
+	box-sizing: border-box;
+}
 
-.fire {
-    z-index: 0;
-    max-width: 100px;
-    max-height: 100px;
+.btn {
+    background: blue;
+    color: #fff;
+}
+
+/*Navigation*/
+
+.top {
+    text-align: center;
+    padding-left: 50%;
+}
+
+/*first photo*/
+
+.first-words-body {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    display: block;
+    position: absolute;
 }
 
 .first-words {
-    z-index: 1;
     text-align: center;
+}
+
+
+.first-card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.fire {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0%;
+    padding: 0%;
+    object-fit: cover;
+}
+
+/*two-container*/
+
+.second-words {
+    text-align: center;
+    padding: 20px;
+}
+
+.second-blok {
+    text-align: center;
+    padding: 20px;
+}
+
+.second-blok i {
+    font-size: 30px;
+    width: 60px;
+    length: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: red;
 }
 
 /*Three-container*/
 
-.card-image {
-    width: 50px;
-    height: 50px;
+.three-container {
+    background: #b2bec3;
+}
+
+.secound-columns {
+    text-align: center;
+    padding: 20px;
+}
+
+.second-card-body-wrods {
+    text-align: center;
+}
+
+.row-six {
+    margin:20px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #fff;
+    margin: 0;
+}
+.social .icon {
+    font-size: 0px;
+    list-style: none;
+    display: inline;
+}
+
+.social .icon .fab {
+    font-size: 30px
+}
+
+.card-footer {
+    background-color: #fff;
+    border-top: none;
 }
